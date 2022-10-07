@@ -1,0 +1,57 @@
+@media only screen and (min-width:1200px){
+	.nav-item > .nav-link{
+        padding: 5px 20px !important;
+		display: block !important;
+    }
+}
+
+@media only screen and (max-width:992px){
+	.header-inner{
+        background-color: #171126 !important;
+	}
+	.nav-item > .nav-link{
+		color: rgb(255, 251, 251)!important
+    }
+	.logo{
+        color: rgb(255, 255, 255) !important;
+		font-weight: 600!important;
+    }
+	.content-banner .first-title{
+        font-size: 30px !important;
+	}
+}
+@media only screen and (max-width:755px){
+	.blog-post{
+		height: 2600px;
+	}
+}
+@media only screen and (max-width:1125px){
+	.size{
+		height: 300px;
+		width: 300px;
+	}
+
+}
+@media only screen and (max-width:550px){
+	.size{
+		margin-left: -40px;
+	}
+
+}
+@media only screen and (max-width:420px){
+	.size{
+		margin-left: -80px;
+	}
+	.blog-post{
+		height: 2800px;
+	}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 940px){
+	.size{
+		height: 300px;
+		width: 300px;
+		margin-left: -50px;
+	}
+
+}
