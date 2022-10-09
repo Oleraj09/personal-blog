@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"/>
     <link rel="stylesheet" href="../assests/css/styles.css">
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;800&display=swap">
     <link rel="stylesheet" type="text/css" href="../assests/css/responsive.css"/>
@@ -35,15 +36,14 @@
                   Services
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Services</a>
-                  <a class="dropdown-item" href="#">Portfolio</a>
-                  <a class="dropdown-item" href="#">Happy Client</a>
+                  <a class="dropdown-item" href="#services">Services</a>
+                  <a class="dropdown-item" href="#happy-client">Happy Client</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testemonial</a>
+                <a class="nav-link" href="#slider">Testemonial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
+                <a class="nav-link" href="#contact">Contact Me</a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -108,11 +108,185 @@
       </div>
     </div>
   </article>
-
-
-
-
-
+  <!-- Services Menu -->
+  <div id="services">
+    <h1 class="services-title">Provided Services</h1>
+    <p class="services-desc">Hi, It's Oleraj Hossin. I am currently doing following services.
+      you can hire me for your best services.
+    </p>
+    <div class="card-deck">
+      <div class="card card-width">
+        <img class="card-img-top card-img-size" src="../media/images/frontend.PNG" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title card-t">Frontend Design</h5>
+          <p class="card-text card-d">
+            Design with HTML/CSS/JS/Bootstrap <br>
+            Design Responsive 5 pages-Cost 15$ <br>
+            Design Responsive 10 pages-Cost 25$ <br>
+            Full Responsive website-Cost 150$
+          </p>
+          <button class="header-btn my-2 my-sm-0" type="submit">Hire Me</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top card-img-size" src="../media/images/backend.PNG" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title card-t">Backend Develop</h5>
+          <p class="card-text card-d">
+            Database and Backend operation<br>
+            Solve or Add 1 Freatures-Cost 15$ <br>
+            Solve or Add 5 Freatures-Cost 50$ <br>
+            Diploy Full backend-Cost 300$
+          </p>
+          <button class="header-btn my-2 my-sm-0" type="submit">Hire Me</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top card-img-size" src="../media/images/full.PNG" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title card-t">FullStack Develop</h5>
+          <p class="card-text card-d">
+            Full Responsive UI design <br>
+            Deploy Backend Server <br>
+            Migrate and configure server <br>
+            Responsive Website-Cost 500$
+          </p>
+          <button class="header-btn my-2 my-sm-0" type="submit">Hire Me</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Happy Client -->
+  <section id="happy-client">
+    <div class="rows">
+      <div class="item-c col-md-3">
+        <div class="icon-img">
+          <i class="fa-solid fa-users fa-lg img-ic"></i>
+        </div>
+        <div class="number-count">290</div>
+        <div class="item-name">Total Client</div>
+      </div>
+      <div class="item-c col-md-3">
+        <div class="icon-img">
+          <i class="fa-solid fa-users fa-lg img-ic"></i>
+        </div>
+        <div class="number-count">287</div>
+        <div class="item-name">Happy Client</div>
+      </div>
+      <div class="item-c col-md-3">
+        <div class="icon-img">
+          <i class="fa-solid fa-users fa-lg img-ic"></i>
+        </div>
+        <div class="number-count">273</div>
+        <div class="item-name">Positive Rating</div>
+      </div>
+      <div class="item-c col-md-3">
+        <div class="icon-img">
+          <i class="fa-solid fa-users fa-lg img-ic"></i>
+        </div>
+        <div class="number-count">97</div>
+        <div class="item-name">Positive Comment</div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Slider Testemonial -->
+  <div id="slider">
+    <h1 class="p-title">Testemonial</h1> <hr>
+    <div class="wrapper">
+      <div class="testimonial-container" id="testimonial-container"></div>
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+    </div>
+  </div>
+  <!-- Contact section -->
+  <div id="contact">
+    <h1 class="contact-title">CONTACT FORM</h1>
+    <p class="contact-desc">Hey there, this is contact form. Feel free to ask question!</p>
+    <div class="contact-items">
+      <form action="">
+        <div class="form-list col-md-6">
+          <label>Message Body</label> <br>
+          <input class="cform-message" type="text"> <br>
+        </div>
+        <div class="form-list col-md-6">
+          <label>Frist Name</label> <br>
+          <input class="cform" type="text">
+          <label>Last Name</label> <br>
+          <input class="cform" type="text"> <br>
+          <label>Email</label> <br>
+          <input class="cform" type="text">
+          <button class="full-button">SUBMIT A QUERY</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- Footer section design -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="rows">
+        <div class="footer-body col-md-4">
+          <h3 class="contact-loc">Information Zone</h3>
+          <div class="contact-item">
+            <ul class="navbar-nav m-auto">
+              <li  class="nav-item space">
+                <i class="fa-solid fa-address-card icons"></i> &nbsp; From 8AM to 9PM
+              </li>
+              <li  class="nav-item space">
+                <i class="fa-solid fa-phone icons"></i> &nbsp; 01781886507 <br>  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; 01827408121
+              </li>
+              <li  class="nav-item space">
+                <i class="fa-solid fa-location-dot icons"></i> &nbsp; Shyal-Bari, Rupnagar Residential<br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mirpur - 2,  Dhaka,  Bangladesh
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-body col-md-4">
+          <div class="link-title">
+            <h3 class="link-tname">Quick Links</h3>
+          </div>
+          <ul class="navbar-nav m-auto">
+            <li  class="nav-item">
+              <a class="nav-link" href="#">Homepage</a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link" href="#">Important</a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link" href="#">Sitemap</a>
+            </li>
+            <li  class="nav-item">
+              <a class="nav-link" href="#">Category</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-body col-md-4">
+          <div class="newsletter">
+            <h3 class="nletter">Newsletter</h3>
+            <p class="getintouch">Hey user, Alawys Get in touch with us!</p>
+            <input type="text">
+            <button class="n-btn">SEND</button>
+            <div class="icon-list">
+              <div class="icons"><i class="fa-brands fa-facebook fa-2xl"></i></div>
+              <div class="icons"><i class="fa-brands fa-twitter fa-2xl"></i></div>
+              <div class="icons"><i class="fa-brands fa-youtube fa-2xl"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Ending Footer -->
+  <div class="footer-bottom">
+    <div class="rows">
+      <div class="footer-end col-md-12">
+        <div class="text-center">
+          <p class="bottom-end">All the rights reserved @ MondolOZ<sup>TM</sup> <span class="fyear">2022</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
