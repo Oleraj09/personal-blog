@@ -229,6 +229,31 @@
 	}
 	
 }
+@media only screen and (max-width:460px){
+	.size{
+		margin-left: -40px;
+	}
+	.banner-con {
+    		padding-top: 50%;
+    		width: 300px;
+    		margin-left: -105px;
+	}
+	.card-deck {
+    		width: 275px;
+    		flex-flow: column;
+    		margin: 0 -75px 10px;
+	}
+	.icon-img {
+    		height: 50px;
+    		width: 50px;
+    		margin-top: 0px;
+   		margin-left: 43%;
+    		background-color: #fefeff;
+    		border-radius: 50%;
+    		box-shadow: #f7c553;
+    		color: #f7c553;
+	}
+}
 @media only screen and (max-width:400px){
 	.size{
 		height: 200px;
